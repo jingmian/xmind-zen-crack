@@ -1,4 +1,4 @@
-# XMind Zen Crack
+# XMind Zen 破解
 
 [English](./README.md)
 
