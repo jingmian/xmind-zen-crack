@@ -21,7 +21,7 @@ Please pull requests to me.
 
 * **ye4241** - *Initial work* - [ye4241](https://github.com/ye4241)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/ye4241/xmind-zen-reset/contributors) who participated in this project.
 
 ## License
 
