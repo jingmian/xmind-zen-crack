@@ -11,11 +11,11 @@
 
 ### 安装
 
-Choose your platform, and run the script.
+选择自己对应的平台，然后跑脚本即可。
 
 ## 贡献代码
 
-PR即可
+PR
 
 ## 作者
 
