@@ -1,13 +1,14 @@
-# XMind Zen Reset
+# XMind Zen Crack
+
+[中文](./README_zh-Hans.md)
+
 All platform scripts to reset XMind zen trial mode.
 
 ## Getting Started
 
-Due to 
-
 ### Prerequisites
 
-Node.js need to be installed, please refer https://nodejs.org/en/download/
+Node.js need to be installed, please refer https://nodejs.org/download/
 
 ### Installing
 
