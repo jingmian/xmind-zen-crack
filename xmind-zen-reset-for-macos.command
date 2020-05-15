@@ -19,8 +19,8 @@ if [ ! -f "$target_asar_path" ]; then
 fi
 
 number=$(ps aux | grep -v grep | grep -ci $target_process)
-if [ $number -gt 0 ] then
-    echo "XMind is runing";
+if [ $number -gt 0 ]; then
+    echo "XMind is runing"
     read -p "press enter to kill XMind..."
     killall $target_process
 fi
