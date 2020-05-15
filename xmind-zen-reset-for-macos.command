@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if ! [ -x "$(command -v npx)" ]; then
-	echo "please install node.js, and run this bash again."
+    echo "please install node.js, and run this bash again."
     exit
 fi
 
@@ -15,7 +15,7 @@ tmp_asar_path="$root_dir/app.asar"
 
 if [ ! -f "$target_asar_path" ]; then
     echo "$target_asar_path not existed, please install XMind ZEN first."
-	exit
+    exit
 fi
 
 number=$(ps aux | grep -v grep | grep -ci $target_process)
@@ -27,7 +27,7 @@ fi
 
 if [ -f "$target_asar_bak_path" ]; then
     echo "$target_asar_bak_path exist, crack again?"
-	read -p "press enter to continue..."
+    read -p "press enter to continue..."
 fi
 
 echo "unpack asar into $tmp_asar_folder"
@@ -43,7 +43,7 @@ echo "backup original file..."
 mv "$target_asar_path" "$target_asar_bak_path"
 
 echo "copy cracked file to target..."
-cp "$tmp_asar_path" "$target_asar_path"	
+cp "$tmp_asar_path" "$target_asar_path"
 
 echo "remove temp folder..."
 rm -rf "$root_dir"
